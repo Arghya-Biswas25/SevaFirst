@@ -1,0 +1,913 @@
+{
+ "units": {
+  "MC": {
+   "name": "Manhattan Condo (1BHK)",
+   "carpet_sqft": 351,
+   "balcony_sqft": 35,
+   "bedrooms": 1,
+   "toilets": 1,
+   "livingShare": 0.47,
+   "personsNominal": 2
+  },
+  "1BHK": {
+   "name": "1 BHK",
+   "carpet_sqft": 351,
+   "balcony_sqft": 35,
+   "bedrooms": 1,
+   "toilets": 1,
+   "livingShare": 0.47,
+   "personsNominal": 2
+  },
+  "MS": {
+   "name": "Manhattan Suite (2BHK)",
+   "carpet_sqft": 517,
+   "balcony_sqft": 66,
+   "bedrooms": 2,
+   "toilets": 2,
+   "livingShare": 0.4,
+   "personsNominal": 3
+  },
+  "2BC": {
+   "name": "2 BHK Comfort",
+   "carpet_sqft": 514,
+   "balcony_sqft": 60,
+   "bedrooms": 2,
+   "toilets": 2,
+   "livingShare": 0.4,
+   "personsNominal": 3
+  },
+  "RMS": {
+   "name": "Royal Manhattan Suite (3BHK)",
+   "carpet_sqft": 760,
+   "balcony_sqft": 62,
+   "bedrooms": 3,
+   "toilets": 2,
+   "livingShare": 0.34,
+   "personsNominal": 4
+  },
+  "3BC": {
+   "name": "3 BHK Comfort",
+   "carpet_sqft": 738,
+   "balcony_sqft": 94,
+   "bedrooms": 3,
+   "toilets": 2,
+   "livingShare": 0.34,
+   "personsNominal": 4
+  },
+  "2BS": {
+   "name": "2 BHK Comfort (in 3BHK row)",
+   "carpet_sqft": 518,
+   "balcony_sqft": 63,
+   "bedrooms": 2,
+   "toilets": 2,
+   "livingShare": 0.4,
+   "personsNominal": 3
+  },
+  "GR": {
+   "name": "3 BHK Grand / Presidential Suite",
+   "carpet_sqft": 976,
+   "balcony_sqft": 115,
+   "bedrooms": 3,
+   "toilets": 3,
+   "livingShare": 0.32,
+   "personsNominal": 5
+  }
+ },
+ "typologies": {
+  "PR-C6": {
+   "code": "PR-C6",
+   "name": "Park Condo-6",
+   "L_m": 23.5,
+   "W_m": 16.4,
+   "corridor_m": 1.5,
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "commercialFloors": [],
+   "flatsPerFloor": 6,
+   "stairs": 1,
+   "lifts": 1,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "02",
+      "w": 6.6
+     },
+     {
+      "kind": "stair",
+      "id": "S1",
+      "w": 3.4
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "03",
+      "w": 6.6
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "04",
+      "w": 6.9
+     }
+    ],
+    "S": [
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "01",
+      "w": 6.6
+     },
+     {
+      "kind": "lift",
+      "id": "L1",
+      "w": 3.4
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "06",
+      "w": 6.6
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "05",
+      "w": 6.9
+     }
+    ]
+   },
+   "source": "ePlan p8, p10",
+   "confidence": "L1-parametric"
+  },
+  "PR-C8": {
+   "code": "PR-C8",
+   "name": "Condo-8",
+   "L_m": 31.0,
+   "W_m": 16.5,
+   "corridor_m": 1.5,
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "commercialFloors": [],
+   "flatsPerFloor": 8,
+   "stairs": 1,
+   "lifts": 1,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "03",
+      "w": 6.9
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "04",
+      "w": 6.9
+     },
+     {
+      "kind": "stair",
+      "id": "S1",
+      "w": 3.4
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "05",
+      "w": 6.9
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "06",
+      "w": 6.9
+     }
+    ],
+    "S": [
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "02",
+      "w": 6.9
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "01",
+      "w": 6.9
+     },
+     {
+      "kind": "lift",
+      "id": "L1",
+      "w": 3.4
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "08",
+      "w": 6.9
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "07",
+      "w": 6.9
+     }
+    ]
+   },
+   "source": "ePlan p9, p13, p14, p19, p26",
+   "confidence": "L1-parametric"
+  },
+  "PR-X6": {
+   "code": "PR-X6",
+   "name": "Combo-6 (Row 18 ring)",
+   "L_m": 37.5,
+   "W_m": 18.8,
+   "corridor_m": 1.5,
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "commercialFloors": [],
+   "flatsPerFloor": 6,
+   "stairs": 2,
+   "lifts": 1,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "02",
+      "w": 10.3
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "03",
+      "w": 6.8
+     },
+     {
+      "kind": "shaft",
+      "w": 3.3
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "04",
+      "w": 6.8
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "05",
+      "w": 10.3
+     }
+    ],
+    "S": [
+     {
+      "kind": "flat",
+      "unit": "RMS",
+      "num": "01",
+      "w": 13.95
+     },
+     {
+      "kind": "stair",
+      "id": "S1",
+      "w": 3.4
+     },
+     {
+      "kind": "lift",
+      "id": "L1",
+      "w": 2.8
+     },
+     {
+      "kind": "stair",
+      "id": "S2",
+      "w": 3.4
+     },
+     {
+      "kind": "flat",
+      "unit": "RMS",
+      "num": "06",
+      "w": 13.95
+     }
+    ]
+   },
+   "source": "ePlan p11-12",
+   "confidence": "L1-parametric"
+  },
+  "S-8": {
+   "code": "S-8",
+   "name": "Suite / 2BHK-8",
+   "L_m": 54.5,
+   "W_m": 15.8,
+   "corridor_m": 1.5,
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "commercialFloors": [],
+   "flatsPerFloor": 8,
+   "stairs": 2,
+   "lifts": 1,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "flat",
+      "unit": "2BC",
+      "num": "06",
+      "w": 12.025
+     },
+     {
+      "kind": "flat",
+      "unit": "2BC",
+      "num": "07",
+      "w": 12.025
+     },
+     {
+      "kind": "shaft",
+      "w": 3.0
+     },
+     {
+      "kind": "flat",
+      "unit": "2BC",
+      "num": "08",
+      "w": 12.025
+     },
+     {
+      "kind": "lift",
+      "id": "L1",
+      "w": 3.4
+     },
+     {
+      "kind": "flat",
+      "unit": "2BC",
+      "num": "01",
+      "w": 12.025
+     }
+    ],
+    "S": [
+     {
+      "kind": "flat",
+      "unit": "2BC",
+      "num": "05",
+      "w": 11.175
+     },
+     {
+      "kind": "stair",
+      "id": "S1",
+      "w": 3.4
+     },
+     {
+      "kind": "flat",
+      "unit": "2BC",
+      "num": "04",
+      "w": 11.175
+     },
+     {
+      "kind": "shaft",
+      "w": 3.0
+     },
+     {
+      "kind": "flat",
+      "unit": "2BC",
+      "num": "03",
+      "w": 11.175
+     },
+     {
+      "kind": "stair",
+      "id": "S2",
+      "w": 3.4
+     },
+     {
+      "kind": "flat",
+      "unit": "2BC",
+      "num": "02",
+      "w": 11.175
+     }
+    ]
+   },
+   "source": "ePlan p15, p18, p34-37",
+   "confidence": "L1-parametric"
+  },
+  "GR-4": {
+   "code": "GR-4",
+   "name": "Grand-4",
+   "L_m": 37.0,
+   "W_m": 21.5,
+   "corridor_m": 1.5,
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "commercialFloors": [],
+   "flatsPerFloor": 4,
+   "stairs": 2,
+   "lifts": 1,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "flat",
+      "unit": "GR",
+      "num": "02",
+      "w": 15.2
+     },
+     {
+      "kind": "stair",
+      "id": "S1",
+      "w": 3.3
+     },
+     {
+      "kind": "lift",
+      "id": "L1",
+      "w": 3.3
+     },
+     {
+      "kind": "flat",
+      "unit": "GR",
+      "num": "03",
+      "w": 15.2
+     }
+    ],
+    "S": [
+     {
+      "kind": "flat",
+      "unit": "GR",
+      "num": "01",
+      "w": 15.2
+     },
+     {
+      "kind": "stair",
+      "id": "S2",
+      "w": 3.3
+     },
+     {
+      "kind": "lobby",
+      "w": 3.3
+     },
+     {
+      "kind": "flat",
+      "unit": "GR",
+      "num": "04",
+      "w": 15.2
+     }
+    ]
+   },
+   "source": "ePlan p16-17, p28-29, p32-33",
+   "confidence": "L1-parametric"
+  },
+  "EC-8": {
+   "code": "EC-8",
+   "name": "Comfort-8",
+   "L_m": 59.0,
+   "W_m": 19.0,
+   "corridor_m": 1.5,
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "commercialFloors": [],
+   "flatsPerFloor": 8,
+   "stairs": 2,
+   "lifts": 1,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "flat",
+      "unit": "3BC",
+      "num": "06",
+      "w": 13.0
+     },
+     {
+      "kind": "flat",
+      "unit": "3BC",
+      "num": "07",
+      "w": 13.0
+     },
+     {
+      "kind": "stair",
+      "id": "S1",
+      "w": 3.5
+     },
+     {
+      "kind": "flat",
+      "unit": "3BC",
+      "num": "08",
+      "w": 13.0
+     },
+     {
+      "kind": "shaft",
+      "w": 3.5
+     },
+     {
+      "kind": "flat",
+      "unit": "3BC",
+      "num": "01",
+      "w": 13.0
+     }
+    ],
+    "S": [
+     {
+      "kind": "flat",
+      "unit": "3BC",
+      "num": "05",
+      "w": 13.0
+     },
+     {
+      "kind": "shaft",
+      "w": 3.0
+     },
+     {
+      "kind": "flat",
+      "unit": "2BS",
+      "num": "04",
+      "w": 10.0
+     },
+     {
+      "kind": "lift",
+      "id": "L1",
+      "w": 3.5
+     },
+     {
+      "kind": "flat",
+      "unit": "2BS",
+      "num": "03",
+      "w": 10.0
+     },
+     {
+      "kind": "stair",
+      "id": "S2",
+      "w": 3.5
+     },
+     {
+      "kind": "shaft",
+      "w": 3.0
+     },
+     {
+      "kind": "flat",
+      "unit": "3BC",
+      "num": "02",
+      "w": 13.0
+     }
+    ]
+   },
+   "source": "ePlan p27, p30, p31",
+   "confidence": "L1-parametric"
+  },
+  "UNK-8": {
+   "code": "UNK-8",
+   "name": "Unconfirmed (violet on master plan)",
+   "L_m": 47.0,
+   "W_m": 18.0,
+   "corridor_m": 1.5,
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "commercialFloors": [],
+   "flatsPerFloor": 8,
+   "stairs": 1,
+   "lifts": 1,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "06",
+      "w": 11.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "07",
+      "w": 11.0
+     },
+     {
+      "kind": "stair",
+      "id": "S1",
+      "w": 3.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "08",
+      "w": 11.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "01",
+      "w": 11.0
+     }
+    ],
+    "S": [
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "05",
+      "w": 11.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "04",
+      "w": 11.0
+     },
+     {
+      "kind": "lift",
+      "id": "L1",
+      "w": 3.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "03",
+      "w": 11.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "02",
+      "w": 11.0
+     }
+    ]
+   },
+   "source": "master plan colour only",
+   "confidence": "assumed"
+  },
+  "MU-E": {
+   "code": "MU-E",
+   "name": "Mixed-use block, ESE arm",
+   "L_m": 52.0,
+   "W_m": 14.0,
+   "corridor_m": 1.5,
+   "storeys": 8,
+   "flatFloors": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "commercialFloors": [
+    0,
+    1
+   ],
+   "flatsPerFloor": 9,
+   "stairs": 2,
+   "lifts": 1,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "lift",
+      "id": "L1",
+      "w": 4.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "01",
+      "w": 9.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "02",
+      "w": 9.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "03",
+      "w": 9.0
+     },
+     {
+      "kind": "terrace",
+      "w": 17.0
+     },
+     {
+      "kind": "stair",
+      "id": "S2",
+      "w": 4.0
+     }
+    ],
+    "S": [
+     {
+      "kind": "stair",
+      "id": "S1",
+      "w": 4.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "09",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "08",
+      "w": 8.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "07",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "06",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "05",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "04",
+      "w": 6.5
+     },
+     {
+      "kind": "terrace",
+      "w": 7.0
+     }
+    ]
+   },
+   "source": "ePlan p20-21",
+   "confidence": "L1-parametric"
+  },
+  "MU-N": {
+   "code": "MU-N",
+   "name": "Mixed-use block, NNE arm",
+   "L_m": 46.0,
+   "W_m": 14.0,
+   "corridor_m": 1.5,
+   "storeys": 8,
+   "flatFloors": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "commercialFloors": [
+    0,
+    1
+   ],
+   "flatsPerFloor": 8,
+   "stairs": 1,
+   "lifts": 0,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "10",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "11",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "12",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "13",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "14",
+      "w": 6.5
+     },
+     {
+      "kind": "flat",
+      "unit": "MC",
+      "num": "15",
+      "w": 6.5
+     },
+     {
+      "kind": "stair",
+      "id": "S3",
+      "w": 7.0
+     }
+    ],
+    "S": [
+     {
+      "kind": "lobby",
+      "w": 10.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "17",
+      "w": 9.0
+     },
+     {
+      "kind": "flat",
+      "unit": "MS",
+      "num": "16",
+      "w": 9.0
+     },
+     {
+      "kind": "terrace",
+      "w": 18.0
+     }
+    ]
+   },
+   "source": "ePlan p20-21",
+   "confidence": "L1-parametric"
+  },
+  "HOTEL": {
+   "code": "HOTEL",
+   "name": "Proposed hotel / service apartments (massing only)",
+   "L_m": 70.0,
+   "W_m": 14.0,
+   "corridor_m": 1.5,
+   "storeys": 5,
+   "flatFloors": [],
+   "commercialFloors": [],
+   "flatsPerFloor": 0,
+   "stairs": 2,
+   "lifts": 2,
+   "liftCapacity_persons": 13,
+   "sides": {
+    "N": [
+     {
+      "kind": "terrace",
+      "w": 70.0
+     }
+    ],
+    "S": [
+     {
+      "kind": "terrace",
+      "w": 70.0
+     }
+    ]
+   },
+   "massingOnly": true,
+   "source": "master plan p2",
+   "confidence": "assumed (no plans; storeys unknown)"
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "safeity-twin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Safeity Digital township digital twin with all-hazards simulation, evacuation routing and responder dispatch",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "packages/hazards/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @twin/web",
+    "build": "npm run build -w @twin/web",
+    "preview": "npm run preview -w @twin/web",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "validate": "vitest run tests/twin.test.ts",
+    "check": "npm run typecheck && npm run test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "@types/three": "0.172.0",
+    "@vitejs/plugin-react": "4.5.2",
+    "typescript": "5.8.3",
+    "vite": "6.3.5",
+    "vitest": "3.2.4"
+  }
+}

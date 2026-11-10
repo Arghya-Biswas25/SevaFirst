@@ -1,0 +1,1228 @@
+{
+ "buildings": [
+  {
+   "id": "R01-A",
+   "row": 1,
+   "wing": "A",
+   "typology": "S-8",
+   "status": "future",
+   "pose": {
+    "E": -81.6,
+    "N": -52.5,
+    "bearing": 108.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (blue2)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R01-B",
+   "row": 1,
+   "wing": "B",
+   "typology": "S-8",
+   "status": "future",
+   "pose": {
+    "E": -132.8,
+    "N": -34.4,
+    "bearing": 108.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (blue2)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R02-A",
+   "row": 2,
+   "wing": "A",
+   "typology": "S-8",
+   "status": "launched",
+   "pose": {
+    "E": -96.0,
+    "N": -16.2,
+    "bearing": 108.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p18 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R02-B",
+   "row": 2,
+   "wing": "B",
+   "typology": "PR-C8",
+   "status": "launched",
+   "pose": {
+    "E": -136.6,
+    "N": -2.3,
+    "bearing": 108.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p19 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R03-A",
+   "row": 3,
+   "wing": "A",
+   "typology": "PR-C8",
+   "status": "launched",
+   "pose": {
+    "E": -83.4,
+    "N": 9.6,
+    "bearing": 111.4
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p13 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R03-B",
+   "row": 3,
+   "wing": "B",
+   "typology": "PR-C8",
+   "status": "launched",
+   "pose": {
+    "E": -118.0,
+    "N": 22.5,
+    "bearing": 111.4
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p14 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R03-C",
+   "row": 3,
+   "wing": "C",
+   "typology": "S-8",
+   "status": "launched",
+   "pose": {
+    "E": -156.2,
+    "N": 37.8,
+    "bearing": 111.4
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p15 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R03-D",
+   "row": 3,
+   "wing": "D",
+   "typology": "GR-4",
+   "status": "launched",
+   "pose": {
+    "E": -195.9,
+    "N": 53.4,
+    "bearing": 111.4
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p16-17 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R04-A",
+   "row": 4,
+   "wing": "A",
+   "typology": "PR-C8",
+   "status": "future",
+   "pose": {
+    "E": -71.0,
+    "N": 33.1,
+    "bearing": 122.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (dgreen)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R04-B",
+   "row": 4,
+   "wing": "B",
+   "typology": "PR-C8",
+   "status": "future",
+   "pose": {
+    "E": -103.6,
+    "N": 52.4,
+    "bearing": 122.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (dgreen)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R04-C",
+   "row": 4,
+   "wing": "C",
+   "typology": "EC-8",
+   "status": "future",
+   "pose": {
+    "E": -140.1,
+    "N": 75.2,
+    "bearing": 122.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (yellow)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R04-D",
+   "row": 4,
+   "wing": "D",
+   "typology": "GR-4",
+   "status": "future",
+   "pose": {
+    "E": -178.5,
+    "N": 99.7,
+    "bearing": 122.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (indigo)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R05-A",
+   "row": 5,
+   "wing": "A",
+   "typology": "S-8",
+   "status": "future",
+   "pose": {
+    "E": -66.1,
+    "N": 67.2,
+    "bearing": 137.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (blue2)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R05-B",
+   "row": 5,
+   "wing": "B",
+   "typology": "S-8",
+   "status": "future",
+   "pose": {
+    "E": -102.5,
+    "N": 107.9,
+    "bearing": 137.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (blue2)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R05-C",
+   "row": 5,
+   "wing": "C",
+   "typology": "S-8",
+   "status": "future",
+   "pose": {
+    "E": -136.6,
+    "N": 145.7,
+    "bearing": 137.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (blue2)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R05-D",
+   "row": 5,
+   "wing": "D",
+   "typology": "GR-4",
+   "status": "future",
+   "pose": {
+    "E": -166.4,
+    "N": 179.2,
+    "bearing": 137.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (indigo)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R06-A",
+   "row": 6,
+   "wing": "A",
+   "typology": "PR-C8",
+   "status": "future",
+   "pose": {
+    "E": -51.4,
+    "N": 89.9,
+    "bearing": 152.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (dgreen)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R06-B",
+   "row": 6,
+   "wing": "B",
+   "typology": "PR-C8",
+   "status": "future",
+   "pose": {
+    "E": -68.4,
+    "N": 120.4,
+    "bearing": 152.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (dgreen)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R06-C",
+   "row": 6,
+   "wing": "C",
+   "typology": "S-8",
+   "status": "future",
+   "pose": {
+    "E": -88.2,
+    "N": 158.4,
+    "bearing": 152.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (blue2)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R06-D",
+   "row": 6,
+   "wing": "D",
+   "typology": "EC-8",
+   "status": "future",
+   "pose": {
+    "E": -113.0,
+    "N": 202.3,
+    "bearing": 152.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (yellow)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R06-E",
+   "row": 6,
+   "wing": "E",
+   "typology": "GR-4",
+   "status": "future",
+   "pose": {
+    "E": -135.0,
+    "N": 245.2,
+    "bearing": 152.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (indigo)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R07-A",
+   "row": 7,
+   "wing": "A",
+   "typology": "EC-8",
+   "status": "future",
+   "pose": {
+    "E": -30.2,
+    "N": 116.0,
+    "bearing": 164.6
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (yellow)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R07-B",
+   "row": 7,
+   "wing": "B",
+   "typology": "EC-8",
+   "status": "future",
+   "pose": {
+    "E": -45.4,
+    "N": 171.3,
+    "bearing": 164.6
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (yellow)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R07-C",
+   "row": 7,
+   "wing": "C",
+   "typology": "EC-8",
+   "status": "future",
+   "pose": {
+    "E": -60.1,
+    "N": 223.8,
+    "bearing": 164.6
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (yellow)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R07-D",
+   "row": 7,
+   "wing": "D",
+   "typology": "GR-4",
+   "status": "future",
+   "pose": {
+    "E": -72.6,
+    "N": 270.3,
+    "bearing": 164.6
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (indigo)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R08-A",
+   "row": 8,
+   "wing": "A",
+   "typology": "UNK-8",
+   "status": "future",
+   "pose": {
+    "E": 1.9,
+    "N": 97.4,
+    "bearing": 177.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (violet)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R08-B",
+   "row": 8,
+   "wing": "B",
+   "typology": "S-8",
+   "status": "future",
+   "pose": {
+    "E": -0.3,
+    "N": 145.3,
+    "bearing": 177.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (blue2)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R08-C",
+   "row": 8,
+   "wing": "C",
+   "typology": "EC-8",
+   "status": "future",
+   "pose": {
+    "E": -3.1,
+    "N": 195.6,
+    "bearing": 177.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (yellow)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R08-D",
+   "row": 8,
+   "wing": "D",
+   "typology": "GR-4",
+   "status": "future",
+   "pose": {
+    "E": -5.7,
+    "N": 242.8,
+    "bearing": 177.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (indigo)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R09-A",
+   "row": 9,
+   "wing": "A",
+   "typology": "EC-8",
+   "status": "future",
+   "pose": {
+    "E": 30.6,
+    "N": 118.3,
+    "bearing": 3.8
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (yellow)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R09-B",
+   "row": 9,
+   "wing": "B",
+   "typology": "EC-8",
+   "status": "future",
+   "pose": {
+    "E": 35.2,
+    "N": 173.9,
+    "bearing": 3.8
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (yellow)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R09-C",
+   "row": 9,
+   "wing": "C",
+   "typology": "GR-4",
+   "status": "future",
+   "pose": {
+    "E": 39.1,
+    "N": 223.2,
+    "bearing": 3.8
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "inferred from master-plan colour (indigo)",
+   "confidence": "L1-inferred"
+  },
+  {
+   "id": "R10-A",
+   "row": 10,
+   "wing": "A",
+   "typology": "PR-C8",
+   "status": "launched",
+   "pose": {
+    "E": 57.2,
+    "N": 100.1,
+    "bearing": 13.4
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p26 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R10-B",
+   "row": 10,
+   "wing": "B",
+   "typology": "EC-8",
+   "status": "launched",
+   "pose": {
+    "E": 68.0,
+    "N": 141.8,
+    "bearing": 13.4
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p27 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R10-C",
+   "row": 10,
+   "wing": "C",
+   "typology": "GR-4",
+   "status": "launched",
+   "pose": {
+    "E": 79.3,
+    "N": 184.6,
+    "bearing": 13.4
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p28-29 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R11",
+   "row": 11,
+   "wing": "-",
+   "typology": "EC-8",
+   "status": "launched",
+   "pose": {
+    "E": 98.9,
+    "N": 143.9,
+    "bearing": 22.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p30 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R12-A",
+   "row": 12,
+   "wing": "A",
+   "typology": "EC-8",
+   "status": "launched",
+   "pose": {
+    "E": 71.9,
+    "N": 65.2,
+    "bearing": 47.2
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p31 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R12-B",
+   "row": 12,
+   "wing": "B",
+   "typology": "GR-4",
+   "status": "launched",
+   "pose": {
+    "E": 107.8,
+    "N": 97.9,
+    "bearing": 47.2
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p32-33 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R13",
+   "row": 13,
+   "wing": "-",
+   "typology": "S-8",
+   "status": "launched",
+   "pose": {
+    "E": 91.6,
+    "N": 38.7,
+    "bearing": 66.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p34 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R14",
+   "row": 14,
+   "wing": "-",
+   "typology": "S-8",
+   "status": "launched",
+   "pose": {
+    "E": 101.9,
+    "N": 8.6,
+    "bearing": 80.1
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p35 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R15",
+   "row": 15,
+   "wing": "-",
+   "typology": "S-8",
+   "status": "launched",
+   "pose": {
+    "E": 102.0,
+    "N": -19.5,
+    "bearing": 84.9
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p36 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R16",
+   "row": 16,
+   "wing": "-",
+   "typology": "S-8",
+   "status": "launched",
+   "pose": {
+    "E": 91.2,
+    "N": -49.9,
+    "bearing": 85.7
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p37 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R17-A",
+   "row": 17,
+   "wing": "A",
+   "typology": "PR-C6",
+   "status": "launched",
+   "pose": {
+    "E": -30.3,
+    "N": 71.1,
+    "bearing": 66.9
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p8 floor plate; position mirrored from R17-C (arc is symmetric about R17-B)",
+   "confidence": "L1"
+  },
+  {
+   "id": "R17-B",
+   "row": 17,
+   "wing": "B",
+   "typology": "PR-C8",
+   "status": "launched",
+   "pose": {
+    "E": 2.0,
+    "N": 75.4,
+    "bearing": 91.5
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p9 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R17-C",
+   "row": 17,
+   "wing": "C",
+   "typology": "PR-C6",
+   "status": "launched",
+   "pose": {
+    "E": 30.3,
+    "N": 71.1,
+    "bearing": 113.1
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p10 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R18-A",
+   "row": 18,
+   "wing": "A",
+   "typology": "PR-X6",
+   "status": "launched",
+   "pose": {
+    "E": -36.9,
+    "N": -42.5,
+    "bearing": 131.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p11 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R18-B",
+   "row": 18,
+   "wing": "B",
+   "typology": "PR-X6",
+   "status": "launched",
+   "pose": {
+    "E": -52.5,
+    "N": -7.2,
+    "bearing": 172.2
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p12 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R18-C",
+   "row": 18,
+   "wing": "C",
+   "typology": "PR-X6",
+   "status": "launched",
+   "pose": {
+    "E": -39.2,
+    "N": 30.5,
+    "bearing": 37.9
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p12 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R18-D",
+   "row": 18,
+   "wing": "D",
+   "typology": "PR-X6",
+   "status": "launched",
+   "pose": {
+    "E": -4.2,
+    "N": 48.5,
+    "bearing": 85.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p11 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R18-E",
+   "row": 18,
+   "wing": "E",
+   "typology": "PR-X6",
+   "status": "launched",
+   "pose": {
+    "E": 33.7,
+    "N": 37.4,
+    "bearing": 132.0
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p11 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R18-F",
+   "row": 18,
+   "wing": "F",
+   "typology": "PR-X6",
+   "status": "launched",
+   "pose": {
+    "E": 53.9,
+    "N": 3.5,
+    "bearing": 176.3
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p11 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "R18-G",
+   "row": 18,
+   "wing": "G",
+   "typology": "PR-X6",
+   "status": "launched",
+   "pose": {
+    "E": 46.8,
+    "N": -35.0,
+    "bearing": 36.8
+   },
+   "storeys": 6,
+   "flatFloors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "source": "ePlan p12 floor plate",
+   "confidence": "L1"
+  },
+  {
+   "id": "MU-E",
+   "row": 0,
+   "wing": "E",
+   "typology": "MU-E",
+   "status": "launched",
+   "pose": {
+    "E": 161.0,
+    "N": -69.0,
+    "bearing": 109.2
+   },
+   "storeys": 8,
+   "flatFloors": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "source": "ePlan p2, p20-21",
+   "confidence": "L1-approx"
+  },
+  {
+   "id": "MU-N",
+   "row": 0,
+   "wing": "N",
+   "typology": "MU-N",
+   "status": "launched",
+   "pose": {
+    "E": 144.0,
+    "N": -46.0,
+    "bearing": 20.0
+   },
+   "storeys": 8,
+   "flatFloors": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "source": "ePlan p2, p20-21",
+   "confidence": "L1-approx"
+  },
+  {
+   "id": "HOTEL-W",
+   "row": 0,
+   "wing": "W",
+   "typology": "HOTEL",
+   "status": "proposed",
+   "pose": {
+    "E": 193.5,
+    "N": -49.0,
+    "bearing": 145.3
+   },
+   "storeys": 5,
+   "flatFloors": [],
+   "lengthOverride_m": 75.0,
+   "source": "master plan p2",
+   "confidence": "assumed"
+  },
+  {
+   "id": "HOTEL-E",
+   "row": 0,
+   "wing": "E",
+   "typology": "HOTEL",
+   "status": "proposed",
+   "pose": {
+    "E": 242.5,
+    "N": -58.5,
+    "bearing": 43.8
+   },
+   "storeys": 5,
+   "flatFloors": [],
+   "lengthOverride_m": 65.0,
+   "source": "master plan p2",
+   "confidence": "assumed"
+  }
+ ]
+}

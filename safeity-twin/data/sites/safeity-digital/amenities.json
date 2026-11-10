@@ -1,0 +1,101 @@
+{
+ "assemblyPoints": [
+  {
+   "id": "AP-S",
+   "name": "Forecourt south of The Blu",
+   "E": 5.6,
+   "N": -56.0,
+   "capacity": 900,
+   "shelter": false
+  },
+  {
+   "id": "AP-W",
+   "name": "West lawn (south-west corner)",
+   "E": -195.0,
+   "N": 15.0,
+   "capacity": 2500,
+   "shelter": false
+  },
+  {
+   "id": "AP-NW",
+   "name": "Tennis court",
+   "E": -151.0,
+   "N": 134.0,
+   "capacity": 600,
+   "shelter": false
+  },
+  {
+   "id": "AP-N",
+   "name": "Sports court by the amphitheatre",
+   "E": -93.5,
+   "N": 248.0,
+   "capacity": 500,
+   "shelter": false
+  },
+  {
+   "id": "AP-E",
+   "name": "East green by the ring road",
+   "E": 136.0,
+   "N": 46.0,
+   "capacity": 700,
+   "shelter": false
+  }
+ ],
+ "gates": [
+  {
+   "id": "ENTRY-SW",
+   "name": "Site entry (south-west approach road)",
+   "E": -258.0,
+   "N": -114.0,
+   "vehicles": true,
+   "external": true
+  },
+  {
+   "id": "GATE-S",
+   "name": "South forecourt gate",
+   "E": 6.5,
+   "N": -70.0,
+   "vehicles": true,
+   "external": false
+  }
+ ],
+ "features": [
+  {
+   "id": "BLU",
+   "name": "The Blu lagoon",
+   "kind": "water",
+   "E": 0,
+   "N": 0,
+   "area_m2": 3108
+  },
+  {
+   "id": "DECK",
+   "name": "Blu deck / clubhouse frontage",
+   "kind": "amenity",
+   "E": 4.4,
+   "N": -31.3
+  },
+  {
+   "id": "TENNIS",
+   "name": "Tennis court",
+   "kind": "court",
+   "E": -151.0,
+   "N": 134.0
+  },
+  {
+   "id": "COURT-N",
+   "name": "Red sports court",
+   "kind": "court",
+   "E": -93.5,
+   "N": 248.3
+  },
+  {
+   "id": "AMPHI",
+   "name": "Amphitheatre steps",
+   "kind": "amenity",
+   "E": -101.0,
+   "N": 279.0
+  }
+ ],
+ "source": "read from ePlan master plan; positions approximate (L1)"
+}

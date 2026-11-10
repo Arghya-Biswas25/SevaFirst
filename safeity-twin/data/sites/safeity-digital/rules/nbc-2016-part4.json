@@ -1,0 +1,37 @@
+{
+ "pack": "nbc-2016-part4",
+ "version": "0.1.0-draft",
+ "status": "UNVERIFIED - placeholder values for review by a fire consultant",
+ "rules": [
+  {
+   "id": "HIGHRISE",
+   "clause": "NBC 2016 Part 4 (definitions)",
+   "check": "building height >= 15 m => high-rise provisions",
+   "threshold_m": 15
+  },
+  {
+   "id": "TWO-STAIRS",
+   "clause": "NBC 2016 Part 4 (means of egress)",
+   "check": "high-rise residential should have at least two staircases",
+   "minStairs": 2
+  },
+  {
+   "id": "TENDER-DRIVEWAY",
+   "clause": "NBC 2016 Part 4 (fire tender access)",
+   "check": "clear driveway width for tender access",
+   "minWidth_m": 6.0
+  },
+  {
+   "id": "TENABILITY",
+   "clause": "ISO 13571 / SFPE (design guidance)",
+   "visibilityMin_m": 10,
+   "temperatureMax_C": 60,
+   "radiantMax_kWm2": 2.5
+  },
+  {
+   "id": "NO-LIFTS",
+   "clause": "standard fire / earthquake practice",
+   "check": "lifts excluded from egress unless designated fire lifts"
+  }
+ ]
+}

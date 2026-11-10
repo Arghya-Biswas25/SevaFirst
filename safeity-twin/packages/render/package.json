@@ -1,0 +1,22 @@
+{
+  "name": "@twin/render",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@twin/core": "*",
+    "@twin/twin-data": "*",
+    "@twin/geometry": "*",
+    "three": "0.172.0",
+    "@twin/twin-schema": "*",
+    "@twin/hazard-sdk": "*",
+    "@twin/crowd": "*",
+    "@twin/sim-runtime": "*",
+    "@twin/routing": "*"
+  }
+}

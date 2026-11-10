@@ -1,0 +1,144 @@
+{
+ "resources": [
+  {
+   "id": "FT-1",
+   "kind": "fire_tender",
+   "name": "Fire tender 1 (standby at south gate)",
+   "base": "GATE-S",
+   "onSite": true,
+   "eta_s": 0,
+   "crew": 6,
+   "water_l": 4500,
+   "speed_ms": 5.5,
+   "capabilities": [
+    "fire_attack",
+    "rescue_ladder",
+    "water"
+   ]
+  },
+  {
+   "id": "FT-2",
+   "kind": "fire_tender",
+   "name": "Fire tender 2 (mutual aid)",
+   "base": "ENTRY-SW",
+   "onSite": false,
+   "eta_s": 1080,
+   "crew": 6,
+   "water_l": 4500,
+   "speed_ms": 5.5,
+   "capabilities": [
+    "fire_attack",
+    "water"
+   ]
+  },
+  {
+   "id": "AMB-1",
+   "kind": "ambulance",
+   "name": "Ambulance 1",
+   "base": "ENTRY-SW",
+   "onSite": false,
+   "eta_s": 720,
+   "crew": 2,
+   "patients": 2,
+   "speed_ms": 6.0,
+   "capabilities": [
+    "casualty_transport",
+    "triage"
+   ]
+  },
+  {
+   "id": "AMB-2",
+   "kind": "ambulance",
+   "name": "Ambulance 2",
+   "base": "ENTRY-SW",
+   "onSite": false,
+   "eta_s": 1200,
+   "crew": 2,
+   "patients": 2,
+   "speed_ms": 6.0,
+   "capabilities": [
+    "casualty_transport",
+    "triage"
+   ]
+  },
+  {
+   "id": "USAR-1",
+   "kind": "rescue_team",
+   "name": "Urban search and rescue team",
+   "base": "ENTRY-SW",
+   "onSite": false,
+   "eta_s": 1800,
+   "crew": 10,
+   "speed_ms": 5.0,
+   "capabilities": [
+    "search_rescue",
+    "heavy_rescue"
+   ]
+  },
+  {
+   "id": "QRT-1",
+   "kind": "security_team",
+   "name": "Township quick response team",
+   "base": "GATE-S",
+   "onSite": true,
+   "eta_s": 0,
+   "crew": 4,
+   "speed_ms": 1.8,
+   "foot": true,
+   "capabilities": [
+    "first_aid",
+    "extinguisher",
+    "traffic_control",
+    "search"
+   ]
+  },
+  {
+   "id": "WARDEN-W",
+   "kind": "warden_team",
+   "name": "Fire wardens, west rows",
+   "base": "AP-W",
+   "onSite": true,
+   "eta_s": 0,
+   "crew": 3,
+   "speed_ms": 1.6,
+   "foot": true,
+   "capabilities": [
+    "extinguisher",
+    "search",
+    "guidance"
+   ]
+  },
+  {
+   "id": "WARDEN-E",
+   "kind": "warden_team",
+   "name": "Fire wardens, east rows",
+   "base": "AP-E",
+   "onSite": true,
+   "eta_s": 0,
+   "crew": 3,
+   "speed_ms": 1.6,
+   "foot": true,
+   "capabilities": [
+    "extinguisher",
+    "search",
+    "guidance"
+   ]
+  },
+  {
+   "id": "LIFT-1",
+   "kind": "technician",
+   "name": "Lift technician",
+   "base": "GATE-S",
+   "onSite": true,
+   "eta_s": 300,
+   "crew": 1,
+   "speed_ms": 1.5,
+   "foot": true,
+   "capabilities": [
+    "lift_rescue",
+    "power_isolation"
+   ]
+  }
+ ],
+ "note": "Scenario defaults from PRD Section 10.3; replace with confirmed station travel times."
+}

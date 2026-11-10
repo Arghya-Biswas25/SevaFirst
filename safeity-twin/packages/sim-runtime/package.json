@@ -1,0 +1,26 @@
+{
+  "name": "@twin/sim-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./worker": "./src/worker.ts"
+  },
+  "dependencies": {
+    "@twin/core": "*",
+    "@twin/twin-data": "*",
+    "@twin/nav": "*",
+    "@twin/hazard-sdk": "*",
+    "@twin/crowd": "*",
+    "@twin/dispatch": "*",
+    "@twin/advisor": "*",
+    "@twin/hazard-fire": "*",
+    "@twin/hazard-collapse": "*",
+    "@twin/hazard-earthquake": "*",
+    "@twin/hazard-power": "*",
+    "@twin/routing": "*"
+  }
+}

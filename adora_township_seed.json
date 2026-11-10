@@ -1,0 +1,1909 @@
+{
+    "meta": {
+        "project": "Safeity Digital (Provident Housing), Dabolim/Chicalim, South Goa",
+        "source_pdf": "ePlan.pdf (Floor Plan Brochure, 40 pages)",
+        "crs": "Local ENU metres; origin = centre of The Blu lagoon; +E east, +N north (north arrow on master plan assumed = grid north)",
+        "geo_anchor_hint": {
+            "lat": 15.395749,
+            "lon": 73.863315,
+            "note": "project pin from developer brochure; not a surveyed point - replace with >=3 GCPs"
+        },
+        "scale": {
+            "masterplan_m_per_image_px": 0.64,
+            "masterplan_m_per_page_pt": 0.889,
+            "floorplan_calibration": "1.5 m corridors, 230 mm walls, plate area vs RERA saleable area"
+        },
+        "checks": {
+            "row18_wing_masterplan_m": [
+                38.6,
+                19.3
+            ],
+            "row18_wing_floorplan_m": [
+                37.5,
+                18.8
+            ],
+            "blu_lagoon_m2": 3108,
+            "blu_published_sqft": 32000,
+            "site_area_acres_measured": 32.95,
+            "site_area_published_acres": 32,
+            "units_inferred_total": 1912,
+            "units_published_total": 1902
+        },
+        "tolerance": {
+            "position_m": 5,
+            "bearing_deg": 2,
+            "footprint_pct": 5
+        },
+        "units_launched": 992,
+        "units_future_inferred": 920
+    },
+    "typologies": {
+        "PR-C6": {
+            "name": "Park Condo-6",
+            "upf": 6,
+            "mix": "6 x Manhattan Condo (1BHK, 351 sq ft carpet)",
+            "L": 23.5,
+            "W": 16.4,
+            "stairs": 1,
+            "lifts": 1,
+            "units": 30
+        },
+        "PR-C8": {
+            "name": "Condo-8",
+            "upf": 8,
+            "mix": "8 x Manhattan Condo / 1BHK (351 sq ft carpet)",
+            "L": 31.0,
+            "W": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "units": 40
+        },
+        "PR-X6": {
+            "name": "Combo-6 (Row 18 ring)",
+            "upf": 6,
+            "mix": "2 x Royal Manhattan Suite (760) + 2 x Manhattan Suite (517) + 2 x Manhattan Condo (351)",
+            "L": 37.5,
+            "W": 18.8,
+            "stairs": 2,
+            "lifts": 1,
+            "units": 30
+        },
+        "S-8": {
+            "name": "Suite / 2BHK-8",
+            "upf": 8,
+            "mix": "8 x Manhattan Suite or 2BHK Comfort (514 sq ft carpet)",
+            "L": 54.5,
+            "W": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "units": 40
+        },
+        "GR-4": {
+            "name": "Grand-4",
+            "upf": 4,
+            "mix": "4 x 3BHK Grand / Presidential Suite (972-1027 sq ft carpet)",
+            "L": 37.0,
+            "W": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "units": 20
+        },
+        "EC-8": {
+            "name": "Comfort-8",
+            "upf": 8,
+            "mix": "6 x 3BHK Comfort (738) + 2 x 2BHK Comfort (518)",
+            "L": 59.0,
+            "W": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "units": 40
+        },
+        "UNK-8": {
+            "name": "Unconfirmed (violet on master plan)",
+            "upf": 8,
+            "mix": "not in brochure; assumed 8 units/floor",
+            "L": 47.0,
+            "W": 24.8,
+            "stairs": null,
+            "lifts": null,
+            "units": 40
+        }
+    },
+    "site_boundary": [
+        [
+            -164.0,
+            296.2
+        ],
+        [
+            -173.6,
+            284.7
+        ],
+        [
+            -194.7,
+            223.9
+        ],
+        [
+            -227.3,
+            173.4
+        ],
+        [
+            -245.3,
+            -25.0
+        ],
+        [
+            -263.2,
+            -117.8
+        ],
+        [
+            -253.6,
+            -117.8
+        ],
+        [
+            -236.3,
+            -26.3
+        ],
+        [
+            -60.3,
+            -86.5
+        ],
+        [
+            118.3,
+            -74.3
+        ],
+        [
+            216.2,
+            -102.5
+        ],
+        [
+            217.5,
+            -94.2
+        ],
+        [
+            157.3,
+            -2.0
+        ],
+        [
+            134.3,
+            190.0
+        ],
+        [
+            126.6,
+            206.0
+        ],
+        [
+            62.6,
+            260.4
+        ],
+        [
+            26.1,
+            273.2
+        ],
+        [
+            -75.7,
+            322.5
+        ],
+        [
+            -89.1,
+            322.5
+        ]
+    ],
+    "blu_lagoon": [
+        [
+            -33.4,
+            7.0
+        ],
+        [
+            -36.0,
+            -5.8
+        ],
+        [
+            -33.4,
+            -9.7
+        ],
+        [
+            -34.1,
+            -18.6
+        ],
+        [
+            -27.7,
+            -28.9
+        ],
+        [
+            -20.0,
+            -21.8
+        ],
+        [
+            -14.2,
+            -22.5
+        ],
+        [
+            -6.5,
+            -27.0
+        ],
+        [
+            11.4,
+            -25.0
+        ],
+        [
+            17.8,
+            -16.1
+        ],
+        [
+            21.0,
+            -16.1
+        ],
+        [
+            32.5,
+            -23.1
+        ],
+        [
+            34.4,
+            -22.5
+        ],
+        [
+            36.3,
+            -16.1
+        ],
+        [
+            36.3,
+            1.2
+        ],
+        [
+            33.8,
+            9.5
+        ],
+        [
+            30.6,
+            10.8
+        ],
+        [
+            26.1,
+            7.6
+        ],
+        [
+            24.2,
+            9.5
+        ],
+        [
+            24.2,
+            12.1
+        ],
+        [
+            28.0,
+            14.0
+        ],
+        [
+            23.5,
+            23.0
+        ],
+        [
+            13.3,
+            28.1
+        ],
+        [
+            8.2,
+            26.8
+        ],
+        [
+            5.6,
+            30.0
+        ],
+        [
+            -5.9,
+            30.0
+        ],
+        [
+            -12.9,
+            24.9
+        ],
+        [
+            -18.7,
+            24.9
+        ],
+        [
+            -25.7,
+            18.5
+        ],
+        [
+            -20.6,
+            13.4
+        ],
+        [
+            -21.3,
+            10.8
+        ],
+        [
+            -23.8,
+            8.9
+        ],
+        [
+            -27.7,
+            13.4
+        ]
+    ],
+    "buildings": [
+        {
+            "id": "R01-A",
+            "row": 1,
+            "wing": "A",
+            "typology": "S-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -81.6,
+            "N_m": -52.5,
+            "dist_from_blu_m": 97.0,
+            "bearing_from_blu_deg": 237.2,
+            "axis_bearing_deg": 108.3,
+            "source": "inferred from master-plan colour (blue2)",
+            "measured_on_masterplan_m": [
+                51.6,
+                16.1
+            ]
+        },
+        {
+            "id": "R01-B",
+            "row": 1,
+            "wing": "B",
+            "typology": "S-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -132.8,
+            "N_m": -34.4,
+            "dist_from_blu_m": 137.2,
+            "bearing_from_blu_deg": 255.5,
+            "axis_bearing_deg": 108.3,
+            "source": "inferred from master-plan colour (blue2)",
+            "measured_on_masterplan_m": [
+                54.5,
+                16.8
+            ]
+        },
+        {
+            "id": "R02-A",
+            "row": 2,
+            "wing": "A",
+            "typology": "S-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -96.0,
+            "N_m": -16.2,
+            "dist_from_blu_m": 97.4,
+            "bearing_from_blu_deg": 260.4,
+            "axis_bearing_deg": 108.3,
+            "source": "ePlan p18 floor plate",
+            "measured_on_masterplan_m": [
+                47.1,
+                15.7
+            ]
+        },
+        {
+            "id": "R02-B",
+            "row": 2,
+            "wing": "B",
+            "typology": "PR-C8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": -136.6,
+            "N_m": -2.3,
+            "dist_from_blu_m": 136.6,
+            "bearing_from_blu_deg": 269.0,
+            "axis_bearing_deg": 108.3,
+            "source": "ePlan p19 floor plate",
+            "measured_on_masterplan_m": [
+                36.4,
+                16.3
+            ]
+        },
+        {
+            "id": "R03-A",
+            "row": 3,
+            "wing": "A",
+            "typology": "PR-C8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": -83.4,
+            "N_m": 9.6,
+            "dist_from_blu_m": 84.0,
+            "bearing_from_blu_deg": 276.6,
+            "axis_bearing_deg": 111.4,
+            "source": "ePlan p13 floor plate",
+            "measured_on_masterplan_m": [
+                43.3,
+                18.9
+            ]
+        },
+        {
+            "id": "R03-B",
+            "row": 3,
+            "wing": "B",
+            "typology": "PR-C8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": -118.0,
+            "N_m": 22.5,
+            "dist_from_blu_m": 120.1,
+            "bearing_from_blu_deg": 280.8,
+            "axis_bearing_deg": 111.4,
+            "source": "ePlan p14 floor plate",
+            "measured_on_masterplan_m": [
+                37.2,
+                16.5
+            ]
+        },
+        {
+            "id": "R03-C",
+            "row": 3,
+            "wing": "C",
+            "typology": "S-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -156.2,
+            "N_m": 37.8,
+            "dist_from_blu_m": 160.7,
+            "bearing_from_blu_deg": 283.6,
+            "axis_bearing_deg": 111.4,
+            "source": "ePlan p15 floor plate",
+            "measured_on_masterplan_m": [
+                43.8,
+                16.4
+            ]
+        },
+        {
+            "id": "R03-D",
+            "row": 3,
+            "wing": "D",
+            "typology": "GR-4",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -195.9,
+            "N_m": 53.4,
+            "dist_from_blu_m": 203.0,
+            "bearing_from_blu_deg": 285.2,
+            "axis_bearing_deg": 111.4,
+            "source": "ePlan p16-17 floor plate",
+            "measured_on_masterplan_m": [
+                39.3,
+                20.4
+            ]
+        },
+        {
+            "id": "R04-A",
+            "row": 4,
+            "wing": "A",
+            "typology": "PR-C8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": -71.0,
+            "N_m": 33.1,
+            "dist_from_blu_m": 78.3,
+            "bearing_from_blu_deg": 295.0,
+            "axis_bearing_deg": 122.0,
+            "source": "inferred from master-plan colour (dgreen)",
+            "measured_on_masterplan_m": [
+                43.3,
+                24.2
+            ]
+        },
+        {
+            "id": "R04-B",
+            "row": 4,
+            "wing": "B",
+            "typology": "PR-C8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": -103.6,
+            "N_m": 52.4,
+            "dist_from_blu_m": 116.1,
+            "bearing_from_blu_deg": 296.8,
+            "axis_bearing_deg": 122.0,
+            "source": "inferred from master-plan colour (dgreen)",
+            "measured_on_masterplan_m": [
+                38.1,
+                17.3
+            ]
+        },
+        {
+            "id": "R04-C",
+            "row": 4,
+            "wing": "C",
+            "typology": "EC-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -140.1,
+            "N_m": 75.2,
+            "dist_from_blu_m": 159.0,
+            "bearing_from_blu_deg": 298.2,
+            "axis_bearing_deg": 122.0,
+            "source": "inferred from master-plan colour (yellow)",
+            "measured_on_masterplan_m": [
+                46.2,
+                19.0
+            ]
+        },
+        {
+            "id": "R04-D",
+            "row": 4,
+            "wing": "D",
+            "typology": "GR-4",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -178.5,
+            "N_m": 99.7,
+            "dist_from_blu_m": 204.5,
+            "bearing_from_blu_deg": 299.2,
+            "axis_bearing_deg": 122.0,
+            "source": "inferred from master-plan colour (indigo)",
+            "measured_on_masterplan_m": [
+                43.6,
+                20.4
+            ]
+        },
+        {
+            "id": "R05-A",
+            "row": 5,
+            "wing": "A",
+            "typology": "S-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -66.1,
+            "N_m": 67.2,
+            "dist_from_blu_m": 94.3,
+            "bearing_from_blu_deg": 315.5,
+            "axis_bearing_deg": 137.3,
+            "source": "inferred from master-plan colour (blue2)",
+            "measured_on_masterplan_m": [
+                50.9,
+                16.1
+            ]
+        },
+        {
+            "id": "R05-B",
+            "row": 5,
+            "wing": "B",
+            "typology": "S-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -102.5,
+            "N_m": 107.9,
+            "dist_from_blu_m": 148.8,
+            "bearing_from_blu_deg": 316.5,
+            "axis_bearing_deg": 137.3,
+            "source": "inferred from master-plan colour (blue2)",
+            "measured_on_masterplan_m": [
+                54.1,
+                16.2
+            ]
+        },
+        {
+            "id": "R05-C",
+            "row": 5,
+            "wing": "C",
+            "typology": "S-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -136.6,
+            "N_m": 145.7,
+            "dist_from_blu_m": 199.7,
+            "bearing_from_blu_deg": 316.8,
+            "axis_bearing_deg": 137.3,
+            "source": "inferred from master-plan colour (blue2)",
+            "measured_on_masterplan_m": [
+                47.6,
+                16.8
+            ]
+        },
+        {
+            "id": "R05-D",
+            "row": 5,
+            "wing": "D",
+            "typology": "GR-4",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -166.4,
+            "N_m": 179.2,
+            "dist_from_blu_m": 244.5,
+            "bearing_from_blu_deg": 317.1,
+            "axis_bearing_deg": 137.3,
+            "source": "inferred from master-plan colour (indigo)",
+            "measured_on_masterplan_m": [
+                41.8,
+                20.5
+            ]
+        },
+        {
+            "id": "R06-A",
+            "row": 6,
+            "wing": "A",
+            "typology": "PR-C8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": -51.4,
+            "N_m": 89.9,
+            "dist_from_blu_m": 103.6,
+            "bearing_from_blu_deg": 330.2,
+            "axis_bearing_deg": 152.3,
+            "source": "inferred from master-plan colour (dgreen)",
+            "measured_on_masterplan_m": [
+                43.6,
+                16.7
+            ]
+        },
+        {
+            "id": "R06-B",
+            "row": 6,
+            "wing": "B",
+            "typology": "PR-C8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": -68.4,
+            "N_m": 120.4,
+            "dist_from_blu_m": 138.5,
+            "bearing_from_blu_deg": 330.4,
+            "axis_bearing_deg": 152.3,
+            "source": "inferred from master-plan colour (dgreen)",
+            "measured_on_masterplan_m": [
+                36.3,
+                16.2
+            ]
+        },
+        {
+            "id": "R06-C",
+            "row": 6,
+            "wing": "C",
+            "typology": "S-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -88.2,
+            "N_m": 158.4,
+            "dist_from_blu_m": 181.3,
+            "bearing_from_blu_deg": 330.9,
+            "axis_bearing_deg": 152.3,
+            "source": "inferred from master-plan colour (blue2)",
+            "measured_on_masterplan_m": [
+                47.8,
+                16.2
+            ]
+        },
+        {
+            "id": "R06-D",
+            "row": 6,
+            "wing": "D",
+            "typology": "EC-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -113.0,
+            "N_m": 202.3,
+            "dist_from_blu_m": 231.7,
+            "bearing_from_blu_deg": 330.8,
+            "axis_bearing_deg": 152.3,
+            "source": "inferred from master-plan colour (yellow)",
+            "measured_on_masterplan_m": [
+                49.5,
+                18.4
+            ]
+        },
+        {
+            "id": "R06-E",
+            "row": 6,
+            "wing": "E",
+            "typology": "GR-4",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -135.0,
+            "N_m": 245.2,
+            "dist_from_blu_m": 279.9,
+            "bearing_from_blu_deg": 331.2,
+            "axis_bearing_deg": 152.3,
+            "source": "inferred from master-plan colour (indigo)",
+            "measured_on_masterplan_m": [
+                44.9,
+                20.3
+            ]
+        },
+        {
+            "id": "R07-A",
+            "row": 7,
+            "wing": "A",
+            "typology": "EC-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -30.2,
+            "N_m": 116.0,
+            "dist_from_blu_m": 119.9,
+            "bearing_from_blu_deg": 345.4,
+            "axis_bearing_deg": 164.6,
+            "source": "inferred from master-plan colour (yellow)",
+            "measured_on_masterplan_m": [
+                55.7,
+                19.6
+            ]
+        },
+        {
+            "id": "R07-B",
+            "row": 7,
+            "wing": "B",
+            "typology": "EC-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -45.4,
+            "N_m": 171.3,
+            "dist_from_blu_m": 177.2,
+            "bearing_from_blu_deg": 345.2,
+            "axis_bearing_deg": 164.6,
+            "source": "inferred from master-plan colour (yellow)",
+            "measured_on_masterplan_m": [
+                56.4,
+                19.5
+            ]
+        },
+        {
+            "id": "R07-C",
+            "row": 7,
+            "wing": "C",
+            "typology": "EC-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -60.1,
+            "N_m": 223.8,
+            "dist_from_blu_m": 231.7,
+            "bearing_from_blu_deg": 345.0,
+            "axis_bearing_deg": 164.6,
+            "source": "inferred from master-plan colour (yellow)",
+            "measured_on_masterplan_m": [
+                50.7,
+                19.5
+            ]
+        },
+        {
+            "id": "R07-D",
+            "row": 7,
+            "wing": "D",
+            "typology": "GR-4",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -72.6,
+            "N_m": 270.3,
+            "dist_from_blu_m": 279.9,
+            "bearing_from_blu_deg": 345.0,
+            "axis_bearing_deg": 164.6,
+            "source": "inferred from master-plan colour (indigo)",
+            "measured_on_masterplan_m": [
+                44.8,
+                20.6
+            ]
+        },
+        {
+            "id": "R08-A",
+            "row": 8,
+            "wing": "A",
+            "typology": "UNK-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 47.0,
+            "footprint_W_m": 24.8,
+            "stairs": null,
+            "lifts": null,
+            "E_m": 1.9,
+            "N_m": 97.4,
+            "dist_from_blu_m": 97.4,
+            "bearing_from_blu_deg": 1.1,
+            "axis_bearing_deg": 177.0,
+            "source": "inferred from master-plan colour (violet)",
+            "measured_on_masterplan_m": [
+                47.1,
+                24.8
+            ]
+        },
+        {
+            "id": "R08-B",
+            "row": 8,
+            "wing": "B",
+            "typology": "S-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -0.3,
+            "N_m": 145.3,
+            "dist_from_blu_m": 145.3,
+            "bearing_from_blu_deg": 359.9,
+            "axis_bearing_deg": 177.0,
+            "source": "inferred from master-plan colour (blue2)",
+            "measured_on_masterplan_m": [
+                45.7,
+                15.6
+            ]
+        },
+        {
+            "id": "R08-C",
+            "row": 8,
+            "wing": "C",
+            "typology": "EC-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -3.1,
+            "N_m": 195.6,
+            "dist_from_blu_m": 195.6,
+            "bearing_from_blu_deg": 359.1,
+            "axis_bearing_deg": 177.0,
+            "source": "inferred from master-plan colour (yellow)",
+            "measured_on_masterplan_m": [
+                51.1,
+                18.8
+            ]
+        },
+        {
+            "id": "R08-D",
+            "row": 8,
+            "wing": "D",
+            "typology": "GR-4",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -5.7,
+            "N_m": 242.8,
+            "dist_from_blu_m": 242.9,
+            "bearing_from_blu_deg": 358.7,
+            "axis_bearing_deg": 177.0,
+            "source": "inferred from master-plan colour (indigo)",
+            "measured_on_masterplan_m": [
+                43.1,
+                20.2
+            ]
+        },
+        {
+            "id": "R09-A",
+            "row": 9,
+            "wing": "A",
+            "typology": "EC-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 30.6,
+            "N_m": 118.3,
+            "dist_from_blu_m": 122.2,
+            "bearing_from_blu_deg": 14.5,
+            "axis_bearing_deg": 3.8,
+            "source": "inferred from master-plan colour (yellow)",
+            "measured_on_masterplan_m": [
+                55.1,
+                19.0
+            ]
+        },
+        {
+            "id": "R09-B",
+            "row": 9,
+            "wing": "B",
+            "typology": "EC-8",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 35.2,
+            "N_m": 173.9,
+            "dist_from_blu_m": 177.4,
+            "bearing_from_blu_deg": 11.4,
+            "axis_bearing_deg": 3.8,
+            "source": "inferred from master-plan colour (yellow)",
+            "measured_on_masterplan_m": [
+                54.1,
+                18.5
+            ]
+        },
+        {
+            "id": "R09-C",
+            "row": 9,
+            "wing": "C",
+            "typology": "GR-4",
+            "status": "future",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 39.1,
+            "N_m": 223.2,
+            "dist_from_blu_m": 226.6,
+            "bearing_from_blu_deg": 9.9,
+            "axis_bearing_deg": 3.8,
+            "source": "inferred from master-plan colour (indigo)",
+            "measured_on_masterplan_m": [
+                42.0,
+                20.4
+            ]
+        },
+        {
+            "id": "R10-A",
+            "row": 10,
+            "wing": "A",
+            "typology": "PR-C8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": 57.2,
+            "N_m": 100.1,
+            "dist_from_blu_m": 115.3,
+            "bearing_from_blu_deg": 29.7,
+            "axis_bearing_deg": 13.4,
+            "source": "ePlan p26 floor plate",
+            "measured_on_masterplan_m": [
+                48.4,
+                22.7
+            ]
+        },
+        {
+            "id": "R10-B",
+            "row": 10,
+            "wing": "B",
+            "typology": "EC-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 68.0,
+            "N_m": 141.8,
+            "dist_from_blu_m": 157.3,
+            "bearing_from_blu_deg": 25.6,
+            "axis_bearing_deg": 13.4,
+            "source": "ePlan p27 floor plate",
+            "measured_on_masterplan_m": [
+                46.1,
+                19.4
+            ]
+        },
+        {
+            "id": "R10-C",
+            "row": 10,
+            "wing": "C",
+            "typology": "GR-4",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 79.3,
+            "N_m": 184.6,
+            "dist_from_blu_m": 200.9,
+            "bearing_from_blu_deg": 23.2,
+            "axis_bearing_deg": 13.4,
+            "source": "ePlan p28-29 floor plate",
+            "measured_on_masterplan_m": [
+                40.7,
+                20.3
+            ]
+        },
+        {
+            "id": "R11",
+            "row": 11,
+            "wing": "-",
+            "typology": "EC-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 98.9,
+            "N_m": 143.9,
+            "dist_from_blu_m": 174.6,
+            "bearing_from_blu_deg": 34.5,
+            "axis_bearing_deg": 22.3,
+            "source": "ePlan p30 floor plate",
+            "measured_on_masterplan_m": [
+                49.6,
+                18.3
+            ]
+        },
+        {
+            "id": "R12-A",
+            "row": 12,
+            "wing": "A",
+            "typology": "EC-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 59.0,
+            "footprint_W_m": 19.0,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 71.9,
+            "N_m": 65.2,
+            "dist_from_blu_m": 97.1,
+            "bearing_from_blu_deg": 47.8,
+            "axis_bearing_deg": 47.2,
+            "source": "ePlan p31 floor plate",
+            "measured_on_masterplan_m": [
+                52.4,
+                18.7
+            ]
+        },
+        {
+            "id": "R12-B",
+            "row": 12,
+            "wing": "B",
+            "typology": "GR-4",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 4,
+            "units": 20,
+            "footprint_L_m": 37.0,
+            "footprint_W_m": 21.5,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 107.8,
+            "N_m": 97.9,
+            "dist_from_blu_m": 145.6,
+            "bearing_from_blu_deg": 47.8,
+            "axis_bearing_deg": 47.2,
+            "source": "ePlan p32-33 floor plate",
+            "measured_on_masterplan_m": [
+                42.2,
+                20.4
+            ]
+        },
+        {
+            "id": "R13",
+            "row": 13,
+            "wing": "-",
+            "typology": "S-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 91.6,
+            "N_m": 38.7,
+            "dist_from_blu_m": 99.4,
+            "bearing_from_blu_deg": 67.1,
+            "axis_bearing_deg": 66.3,
+            "source": "ePlan p34 floor plate",
+            "measured_on_masterplan_m": [
+                49.9,
+                16.2
+            ]
+        },
+        {
+            "id": "R14",
+            "row": 14,
+            "wing": "-",
+            "typology": "S-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 101.9,
+            "N_m": 8.6,
+            "dist_from_blu_m": 102.3,
+            "bearing_from_blu_deg": 85.2,
+            "axis_bearing_deg": 80.1,
+            "source": "ePlan p35 floor plate",
+            "measured_on_masterplan_m": [
+                49.9,
+                15.9
+            ]
+        },
+        {
+            "id": "R15",
+            "row": 15,
+            "wing": "-",
+            "typology": "S-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 102.0,
+            "N_m": -19.5,
+            "dist_from_blu_m": 103.8,
+            "bearing_from_blu_deg": 100.8,
+            "axis_bearing_deg": 84.9,
+            "source": "ePlan p36 floor plate",
+            "measured_on_masterplan_m": [
+                49.8,
+                15.8
+            ]
+        },
+        {
+            "id": "R16",
+            "row": 16,
+            "wing": "-",
+            "typology": "S-8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 54.5,
+            "footprint_W_m": 15.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 91.2,
+            "N_m": -49.9,
+            "dist_from_blu_m": 104.0,
+            "bearing_from_blu_deg": 118.7,
+            "axis_bearing_deg": 85.7,
+            "source": "ePlan p37 floor plate",
+            "measured_on_masterplan_m": [
+                50.1,
+                15.7
+            ]
+        },
+        {
+            "id": "R17-A",
+            "row": 17,
+            "wing": "A",
+            "typology": "PR-C6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 23.5,
+            "footprint_W_m": 16.4,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": -30.3,
+            "N_m": 71.1,
+            "dist_from_blu_m": 77.3,
+            "bearing_from_blu_deg": 336.9,
+            "axis_bearing_deg": 66.9,
+            "source": "ePlan p8 floor plate; position mirrored from R17-C (arc is symmetric about R17-B)",
+            "measured_on_masterplan_m": [
+                65.2,
+                21.3
+            ]
+        },
+        {
+            "id": "R17-B",
+            "row": 17,
+            "wing": "B",
+            "typology": "PR-C8",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 8,
+            "units": 40,
+            "footprint_L_m": 31.0,
+            "footprint_W_m": 16.5,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": 2.0,
+            "N_m": 75.4,
+            "dist_from_blu_m": 75.4,
+            "bearing_from_blu_deg": 1.5,
+            "axis_bearing_deg": 91.5,
+            "source": "ePlan p9 floor plate",
+            "measured_on_masterplan_m": [
+                30.4,
+                16.9
+            ]
+        },
+        {
+            "id": "R17-C",
+            "row": 17,
+            "wing": "C",
+            "typology": "PR-C6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 23.5,
+            "footprint_W_m": 16.4,
+            "stairs": 1,
+            "lifts": 1,
+            "E_m": 30.3,
+            "N_m": 71.1,
+            "dist_from_blu_m": 77.3,
+            "bearing_from_blu_deg": 23.1,
+            "axis_bearing_deg": 113.1,
+            "source": "ePlan p10 floor plate",
+            "measured_on_masterplan_m": [
+                23.1,
+                16.2
+            ]
+        },
+        {
+            "id": "R18-A",
+            "row": 18,
+            "wing": "A",
+            "typology": "PR-X6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 37.5,
+            "footprint_W_m": 18.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -36.9,
+            "N_m": -42.5,
+            "dist_from_blu_m": 56.3,
+            "bearing_from_blu_deg": 221.0,
+            "axis_bearing_deg": 131.0,
+            "source": "ePlan p11 floor plate",
+            "measured_on_masterplan_m": [
+                40.3,
+                19.3
+            ]
+        },
+        {
+            "id": "R18-B",
+            "row": 18,
+            "wing": "B",
+            "typology": "PR-X6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 37.5,
+            "footprint_W_m": 18.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -52.5,
+            "N_m": -7.2,
+            "dist_from_blu_m": 53.0,
+            "bearing_from_blu_deg": 262.2,
+            "axis_bearing_deg": 172.2,
+            "source": "ePlan p12 floor plate",
+            "measured_on_masterplan_m": [
+                38.2,
+                19.7
+            ]
+        },
+        {
+            "id": "R18-C",
+            "row": 18,
+            "wing": "C",
+            "typology": "PR-X6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 37.5,
+            "footprint_W_m": 18.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -39.2,
+            "N_m": 30.5,
+            "dist_from_blu_m": 49.7,
+            "bearing_from_blu_deg": 307.9,
+            "axis_bearing_deg": 37.9,
+            "source": "ePlan p12 floor plate",
+            "measured_on_masterplan_m": [
+                38.4,
+                19.3
+            ]
+        },
+        {
+            "id": "R18-D",
+            "row": 18,
+            "wing": "D",
+            "typology": "PR-X6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 37.5,
+            "footprint_W_m": 18.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": -4.2,
+            "N_m": 48.5,
+            "dist_from_blu_m": 48.7,
+            "bearing_from_blu_deg": 355.1,
+            "axis_bearing_deg": 85.0,
+            "source": "ePlan p11 floor plate",
+            "measured_on_masterplan_m": [
+                38.6,
+                18.4
+            ]
+        },
+        {
+            "id": "R18-E",
+            "row": 18,
+            "wing": "E",
+            "typology": "PR-X6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 37.5,
+            "footprint_W_m": 18.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 33.7,
+            "N_m": 37.4,
+            "dist_from_blu_m": 50.3,
+            "bearing_from_blu_deg": 42.0,
+            "axis_bearing_deg": 132.0,
+            "source": "ePlan p11 floor plate",
+            "measured_on_masterplan_m": [
+                39.2,
+                19.0
+            ]
+        },
+        {
+            "id": "R18-F",
+            "row": 18,
+            "wing": "F",
+            "typology": "PR-X6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 37.5,
+            "footprint_W_m": 18.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 53.9,
+            "N_m": 3.5,
+            "dist_from_blu_m": 54.0,
+            "bearing_from_blu_deg": 86.3,
+            "axis_bearing_deg": 176.3,
+            "source": "ePlan p11 floor plate",
+            "measured_on_masterplan_m": [
+                40.7,
+                20.5
+            ]
+        },
+        {
+            "id": "R18-G",
+            "row": 18,
+            "wing": "G",
+            "typology": "PR-X6",
+            "status": "launched",
+            "floors_residential": 5,
+            "storeys": "G+5",
+            "units_per_floor": 6,
+            "units": 30,
+            "footprint_L_m": 37.5,
+            "footprint_W_m": 18.8,
+            "stairs": 2,
+            "lifts": 1,
+            "E_m": 46.8,
+            "N_m": -35.0,
+            "dist_from_blu_m": 58.4,
+            "bearing_from_blu_deg": 126.8,
+            "axis_bearing_deg": 36.8,
+            "source": "ePlan p12 floor plate",
+            "measured_on_masterplan_m": [
+                33.7,
+                19.4
+            ]
+        }
+    ],
+    "special_buildings": [
+        {
+            "id": "MU",
+            "name": "Mixed-Use Block",
+            "typology": "MU-17",
+            "status": "launched",
+            "storeys": "G+7 (residential floors 2-7, 17 units/floor)",
+            "units": 102,
+            "footprint": "V-shaped, two arms ~50-55 m, envelope ~53 x 60 m, plate ~1,075 m2",
+            "polygon_partial": [
+                [
+                    145.8,
+                    -35.9
+                ],
+                [
+                    143.9,
+                    -42.3
+                ],
+                [
+                    137.5,
+                    -49.4
+                ],
+                [
+                    133.6,
+                    -62.2
+                ],
+                [
+                    138.1,
+                    -60.2
+                ],
+                [
+                    143.2,
+                    -64.1
+                ],
+                [
+                    140.7,
+                    -66.6
+                ],
+                [
+                    166.3,
+                    -72.4
+                ],
+                [
+                    170.7,
+                    -75.6
+                ],
+                [
+                    176.5,
+                    -67.9
+                ],
+                [
+                    174.6,
+                    -60.2
+                ],
+                [
+                    156.0,
+                    -56.4
+                ],
+                [
+                    151.5,
+                    -62.8
+                ],
+                [
+                    148.3,
+                    -63.4
+                ],
+                [
+                    141.3,
+                    -58.3
+                ],
+                [
+                    143.9,
+                    -48.7
+                ],
+                [
+                    148.3,
+                    -44.2
+                ],
+                [
+                    154.1,
+                    -50.0
+                ],
+                [
+                    160.5,
+                    -39.1
+                ],
+                [
+                    158.6,
+                    -34.6
+                ],
+                [
+                    151.5,
+                    -39.8
+                ]
+            ],
+            "source": "ePlan p20-21; master plan p2",
+            "E_m": 155.3,
+            "N_m": -57.9
+        },
+        {
+            "id": "HOTEL",
+            "name": "Proposed Hotel / Service Apartments (Zone by The Park)",
+            "status": "proposed",
+            "storeys": "unknown",
+            "units": null,
+            "footprint": "V-shaped, envelope ~77 x 77 m",
+            "polygon": [
+                [
+                    176.5,
+                    -19.3
+                ],
+                [
+                    189.3,
+                    -39.1
+                ],
+                [
+                    195.7,
+                    -35.9
+                ],
+                [
+                    198.9,
+                    -39.1
+                ],
+                [
+                    193.8,
+                    -46.2
+                ],
+                [
+                    202.7,
+                    -60.2
+                ],
+                [
+                    199.5,
+                    -64.7
+                ],
+                [
+                    204.7,
+                    -71.8
+                ],
+                [
+                    207.9,
+                    -69.2
+                ],
+                [
+                    215.5,
+                    -80.1
+                ],
+                [
+                    219.4,
+                    -75.6
+                ],
+                [
+                    222.6,
+                    -83.9
+                ],
+                [
+                    236.7,
+                    -67.9
+                ],
+                [
+                    231.5,
+                    -61.5
+                ],
+                [
+                    236.0,
+                    -57.7
+                ],
+                [
+                    240.5,
+                    -62.2
+                ],
+                [
+                    255.9,
+                    -45.5
+                ],
+                [
+                    248.8,
+                    -35.3
+                ],
+                [
+                    252.0,
+                    -32.7
+                ],
+                [
+                    261.6,
+                    -39.1
+                ],
+                [
+                    269.9,
+                    -27.6
+                ],
+                [
+                    268.0,
+                    -26.3
+                ],
+                [
+                    263.5,
+                    -29.5
+                ],
+                [
+                    257.8,
+                    -21.8
+                ],
+                [
+                    223.2,
+                    -60.2
+                ],
+                [
+                    231.5,
+                    -67.9
+                ],
+                [
+                    221.3,
+                    -73.7
+                ],
+                [
+                    218.1,
+                    -69.2
+                ],
+                [
+                    214.9,
+                    -73.0
+                ],
+                [
+                    211.7,
+                    -69.8
+                ],
+                [
+                    213.0,
+                    -64.1
+                ],
+                [
+                    219.4,
+                    -59.6
+                ],
+                [
+                    188.0,
+                    -9.7
+                ]
+            ],
+            "source": "master plan p2",
+            "E_m": 219.3,
+            "N_m": -46.2
+        }
+    ],
+    "pois": [
+        {
+            "id": "GATE-S",
+            "kind": "main gate (security cabins)",
+            "E_m": 6.5,
+            "N_m": -70.0
+        },
+        {
+            "id": "POOL-DECK",
+            "kind": "Blu deck / clubhouse frontage",
+            "E_m": 4.4,
+            "N_m": -31.3
+        },
+        {
+            "id": "UTIL-N",
+            "kind": "small structure on perimeter (utility/security, unconfirmed)",
+            "E_m": -7.2,
+            "N_m": 274.3
+        },
+        {
+            "id": "UTIL-NE",
+            "kind": "small structure (unconfirmed)",
+            "E_m": 95.8,
+            "N_m": 214.9
+        },
+        {
+            "id": "UTIL-NW",
+            "kind": "small structure (unconfirmed)",
+            "E_m": -185.6,
+            "N_m": 212.6
+        },
+        {
+            "id": "COURT-N",
+            "kind": "red sports court (basketball/skating)",
+            "E_m": -93.5,
+            "N_m": 248.3
+        }
+    ]
+}

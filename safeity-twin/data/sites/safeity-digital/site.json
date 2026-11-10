@@ -1,0 +1,264 @@
+{
+ "id": "safeity-digital",
+ "name": "Safeity Digital",
+ "developer": "Provident Housing (Puravankara)",
+ "location": "Chicalim-Dabolim, South Goa, India",
+ "dataLevel": "L1",
+ "crs": {
+  "frame": "local ENU metres; origin = centre of The Blu lagoon; +E east, +N north",
+  "geoAnchorHint": {
+   "lat": 15.395749,
+   "lon": 73.863315,
+   "note": "project pin from developer brochure; not a surveyed point - replace with >=3 GCPs"
+  },
+  "utm": "EPSG:32643"
+ },
+ "calibration": {
+  "masterplan_m_per_image_px": 0.64,
+  "masterplan_m_per_page_pt": 0.889,
+  "floorplan_calibration": "1.5 m corridors, 230 mm walls, plate area vs RERA saleable area"
+ },
+ "checks": {
+  "row18_wing_masterplan_m": [
+   38.6,
+   19.3
+  ],
+  "row18_wing_floorplan_m": [
+   37.5,
+   18.8
+  ],
+  "blu_lagoon_m2": 3108,
+  "blu_published_sqft": 32000,
+  "site_area_acres_measured": 32.95,
+  "site_area_published_acres": 32,
+  "units_inferred_total": 1912,
+  "units_published_total": 1902
+ },
+ "tolerance": {
+  "position_m": 5,
+  "bearing_deg": 2,
+  "footprint_pct": 5
+ },
+ "boundary": [
+  [
+   -164.0,
+   296.2
+  ],
+  [
+   -173.6,
+   284.7
+  ],
+  [
+   -194.7,
+   223.9
+  ],
+  [
+   -227.3,
+   173.4
+  ],
+  [
+   -245.3,
+   -25.0
+  ],
+  [
+   -263.2,
+   -117.8
+  ],
+  [
+   -253.6,
+   -117.8
+  ],
+  [
+   -236.3,
+   -26.3
+  ],
+  [
+   -60.3,
+   -86.5
+  ],
+  [
+   118.3,
+   -74.3
+  ],
+  [
+   216.2,
+   -102.5
+  ],
+  [
+   217.5,
+   -94.2
+  ],
+  [
+   157.3,
+   -2.0
+  ],
+  [
+   134.3,
+   190.0
+  ],
+  [
+   126.6,
+   206.0
+  ],
+  [
+   62.6,
+   260.4
+  ],
+  [
+   26.1,
+   273.2
+  ],
+  [
+   -75.7,
+   322.5
+  ],
+  [
+   -89.1,
+   322.5
+  ]
+ ],
+ "lagoon": [
+  [
+   -33.4,
+   7.0
+  ],
+  [
+   -36.0,
+   -5.8
+  ],
+  [
+   -33.4,
+   -9.7
+  ],
+  [
+   -34.1,
+   -18.6
+  ],
+  [
+   -27.7,
+   -28.9
+  ],
+  [
+   -20.0,
+   -21.8
+  ],
+  [
+   -14.2,
+   -22.5
+  ],
+  [
+   -6.5,
+   -27.0
+  ],
+  [
+   11.4,
+   -25.0
+  ],
+  [
+   17.8,
+   -16.1
+  ],
+  [
+   21.0,
+   -16.1
+  ],
+  [
+   32.5,
+   -23.1
+  ],
+  [
+   34.4,
+   -22.5
+  ],
+  [
+   36.3,
+   -16.1
+  ],
+  [
+   36.3,
+   1.2
+  ],
+  [
+   33.8,
+   9.5
+  ],
+  [
+   30.6,
+   10.8
+  ],
+  [
+   26.1,
+   7.6
+  ],
+  [
+   24.2,
+   9.5
+  ],
+  [
+   24.2,
+   12.1
+  ],
+  [
+   28.0,
+   14.0
+  ],
+  [
+   23.5,
+   23.0
+  ],
+  [
+   13.3,
+   28.1
+  ],
+  [
+   8.2,
+   26.8
+  ],
+  [
+   5.6,
+   30.0
+  ],
+  [
+   -5.9,
+   30.0
+  ],
+  [
+   -12.9,
+   24.9
+  ],
+  [
+   -18.7,
+   24.9
+  ],
+  [
+   -25.7,
+   18.5
+  ],
+  [
+   -20.6,
+   13.4
+  ],
+  [
+   -21.3,
+   10.8
+  ],
+  [
+   -23.8,
+   8.9
+  ],
+  [
+   -27.7,
+   13.4
+  ]
+ ],
+ "storeyHeight_m": 3.0,
+ "groundStoreyHeight_m": 3.0,
+ "parapet_m": 1.0,
+ "hazardContext": {
+  "seismicZone": "III",
+  "zoneFactorZ": 0.16,
+  "cycloneSeason": "May-June and October-November (Arabian Sea)",
+  "airportDistance_km": 3.5
+ },
+ "source": "ePlan.pdf (floor plan brochure) calibrated; see PRD Section 2"
+}

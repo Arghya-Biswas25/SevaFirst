@@ -1,0 +1,39 @@
+{
+ "profiles": {
+  "weekday-night": {
+   "label": "Weekday night (21:00-06:00)",
+   "occupancyRate": 0.7,
+   "personsFactor": 1.0,
+   "awake": 0.35,
+   "preMovement_s": {
+    "median": 240,
+    "sigma": 0.5
+   },
+   "bluVisitors": 20
+  },
+  "weekday-day": {
+   "label": "Weekday day",
+   "occupancyRate": 0.55,
+   "personsFactor": 0.7,
+   "awake": 1.0,
+   "preMovement_s": {
+    "median": 90,
+    "sigma": 0.45
+   },
+   "bluVisitors": 150
+  },
+  "holiday-peak": {
+   "label": "Holiday peak (Dec-Jan weekend)",
+   "occupancyRate": 0.92,
+   "personsFactor": 1.2,
+   "awake": 0.9,
+   "preMovement_s": {
+    "median": 120,
+    "sigma": 0.5
+   },
+   "bluVisitors": 600
+  }
+ },
+ "vulnerableShare": 0.08,
+ "note": "Assumed; calibrate with society records and drills."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@twin/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@twin/core": "*",
+    "@twin/twin-schema": "*",
+    "@twin/twin-data": "*",
+    "@twin/nav": "*",
+    "@twin/geometry": "*",
+    "@twin/render": "*",
+    "@twin/interaction": "*",
+    "@twin/hazard-sdk": "*",
+    "@twin/sim-runtime": "*",
+    "@twin/ui-kit": "*",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "three": "0.172.0",
+    "@twin/routing": "*"
+  }
+}
